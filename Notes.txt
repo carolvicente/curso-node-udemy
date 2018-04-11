@@ -1,0 +1,16 @@
+Create a node js application
+1) npm init
+
+MVC
+
+Model - Representam os dados da aplicação, é onde é centralizado as regras de negócio.
+View - Armazenar arquivos htmls estáticos, em conjunto com arquivos javascripts.
+Controller - Recebem requisições e convertem em comandos.
+
+id_noticia
+titulo
+noticia
+data_criacao
+resumo
+autor
+data_noticia
