@@ -1,0 +1,46 @@
+View - > Route - > Model
+
+function Noticias(){
+	this._titulo = "";
+	this._noticia = "";
+}
+
+* toda a variavel com o underline na frente, representa que ela é inerente a classe.
+
+function Noticias(){
+
+	this.titulo = '';
+	this.noticias = '';
+
+	this.getNoticias = function(){}
+	this.getNoticia = function(){}
+	this.salvarNoticia = function(){}
+}
+
+function Noticias(){
+
+	this._titulo = '';
+	this._noticia = '';
+}
+
+Noticias.prototype.getNoticias = function(){}
+Noticias.prototype.getNoticia = function(){}
+Noticias.prototype.salvarNoticia = function(){}
+
+
+DAO Pattern 
+* https://pt.stackoverflow.com/questions/113840/como-funciona-o-padr%C3%A3o-dao
+
+Repository Pattern
+* https://stackoverflow.com/questions/31305199/repository-pattern-how-to-understand-it-and-how-does-it-work-with-complex-en
+
+https://stackoverflow.com/questions/31305199/repository-pattern-how-to-understand-it-and-how-does-it-work-with-complex-en
+
+Data Persistence
+Persistence is "the continuance of an effect after its cause is removed". In the context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.
+
+
+
+
+
+
